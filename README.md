@@ -5,8 +5,11 @@ unzip walrus-monitor-v0.6.0.zip
 cd walrus-monitor
 
 cp .env.example .env
+
 nano .env
 
 docker compose config
+
 docker compose up -d --build
+
 docker compose ps
